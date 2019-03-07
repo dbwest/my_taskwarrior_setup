@@ -9,6 +9,7 @@ Ansible playbooks, inventory, etc to set up my taskwarrior and timewarrior setup
 # TODO
 
 intheam setup
+make this into a role
 
 # Compatibility
 
