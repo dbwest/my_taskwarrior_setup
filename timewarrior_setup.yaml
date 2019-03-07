@@ -1,0 +1,14 @@
+# An Ansible Playbook to setup Timewarrior
+---
+
+- name: Install Timewarrior
+  gather_facts: true
+  become: yes
+  hosts: taskwarrior_clients
+  tasks:
+
+    - name: Install Timewarrior Package 
+      apt: 
+        name: timewarrior
+        state: present
+
