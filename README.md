@@ -10,6 +10,7 @@ Ansible playbooks, inventory, etc to set up my taskwarrior and timewarrior setup
 
 intheam setup
 make this into a role
+vagrant box for testing
 
 # Compatibility
 
