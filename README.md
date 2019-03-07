@@ -8,9 +8,11 @@ Ansible playbooks, inventory, etc to set up my taskwarrior and timewarrior setup
 
 # TODO
 
-intheam setup
-make this into a role
-vagrant box or docker image with tests or just use travis
+- intheam setup
+- make this into a role
+- vagrant box or docker image with tests or just use travis
+- Android compatibility with Termux (even possible?)
+- NixOS compatibility
 
 # Compatibility
 
