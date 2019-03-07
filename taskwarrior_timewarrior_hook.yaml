@@ -1,0 +1,14 @@
+# An Ansible Playbook to setup the Taskwarrior to Timewarrior hook
+# link to doc page on the on-modify hook https://taskwarrior.org/docs/timewarrior/taskwarrior.html  
+---
+
+- name: Setup Taskwarrior Timewarrior hook
+  hosts: taskwarrior_clients
+  tasks:
+
+    - name: Copy the hook
+      copy: 
+        src: /usr/share/doc/timewarrior/ext/on-modify.timewarrior
+        dest: ~/.task/hooks/on-modify.timewarrior
+        mode: +x
+
