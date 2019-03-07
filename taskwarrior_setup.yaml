@@ -1,0 +1,14 @@
+# An Ansible Playbook to setup Taskwarrior
+---
+
+- name: Install Taskwarrior
+  gather_facts: true
+  become: yes
+  hosts: taskwarrior_clients
+  tasks:
+
+    - name: Install Taskwarrior Package 
+      apt: 
+        name: taskwarrior
+        state: present
+
