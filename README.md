@@ -1,7 +1,7 @@
 # my_taskwarrior_setup
 
-# with ansible
-`sudo apt install python-pip && pip install ansible && source ~/.profile`
+# some prep
+`chmod +x prep.sh && ./prep.sh`
 
 # do the stuff
 
